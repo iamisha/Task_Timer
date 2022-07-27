@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(224, 205, 123);
+}
+.clockstyle{
+    text-align: center;
+    margin: 160px 550px;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(255, 255, 255, .25);  ;
+    padding: 70px;
+    min-height: 10vh;
+    width: 280px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.18)
+    
+   
+}
+.text{
+    margin: 80px 550px;
+}
+a{
+    color: rgb(63, 49, 49);
+}
+a:hover{
+    color: brown;
+}
+.nav{
+    float: right;
+    position: sticky;
+    margin: -100px 100px;
+}
+
+
+.nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+footer{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 50px;
+    background: rgba(0, 0, 0, 0.18);
+}
