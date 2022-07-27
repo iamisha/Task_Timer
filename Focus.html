@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>focus</title>
-    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </link>
 </head>
+
 <body>
-    
-    
-    <footer style="text-align: center; font-weight: bold;color: rgb(63, 49, 49); margin: 0px auto;"><p class="copyright">© 2022 | Created and Designed By |<a href="https://github.com/iamisha"> Isha Hitang</a> |</p>
+    <div id="container">
+        <p id="focus" class="label">Focus:</p>
+        <p id="break" class="label">Break</p>
+        <p id="cycles" class="label">Cycles</p>
+
+        <!--focus-->
+        <div id="focus-timer" class="timer">
+            <p id="f_min">30</p>
+            <p class="semicolon">:</p>
+            <p id="f_sec">00</p>
+        </div>
+        <!--cycle-->
+        <p id="counter" class="timer">0</p>
+
+        <!--break-->
+
+        <div id="break-timer" class="timer">
+            <p id="b_min">05</p>
+            <p class="semicolon">:</p>
+            <p id="b_sec">00</p>
+        </div>
+        <!--button-->
+        <button id="start" class="btn">Start</button>
+        <button id="stop" class="btn">Pause</button>
+        <button id="reset" class="btn">Reset</button>
+    </div>
+    <footer style="text-align: center; font-weight: bold;color: rgb(63, 49, 49); margin: 0px auto;">
+        <p class="copyright">© 2022 | Created and Designed By |<a href="https://github.com/iamisha"> Isha Hitang</a> |
+        </p>
     </footer>
-     <!-- js file -->
-  <script type="text/javascript" src="external.js">
-        
-</script>
+    <!-- js file -->
+    <script type="text/javascript" src="external.js">
+
+    </script>
 </body>
+
 </html>

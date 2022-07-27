@@ -1,6 +1,10 @@
-body{
+
+html{
     background-color: rgb(224, 205, 123);
+    height: 100%;
 }
+/*clock css section starts from here*/
+
 .clockstyle{
     text-align: center;
     margin: 160px 550px;
@@ -49,3 +53,76 @@ footer{
     height: 50px;
     background: rgba(0, 0, 0, 0.18);
 }
+/*clock css section ends here*/
+
+/*focus css section starts here*/
+#container{
+height: 300px;
+width: 700px;
+background-color: rgba(255, 255, 255, .25);
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(3, 1fr);
+border: 1px solid yellow;
+}
+
+
+.label{
+    align-items: center;
+    justify-self: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#focus{
+    grid-area: 1 / 2 / 1 / 2;
+}
+#break{
+    grid-area: 1 / 4 / 1 / 4;
+}
+#cycles{
+    grid-area: 1 / 3 / 1 / 3;
+}
+
+.timer{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#counter{
+    grid-area: 2 / 3 / 2 / 3;
+}
+#focus-timer{
+    grid-area: 2/ 2 / 2 / 2;
+}
+#break-timer{
+    grid-area: 2 / 4 / 2 / 4;
+}
+
+.btn{
+    align-self: center;
+    justify-self: center;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#start{
+    grid-area: 3 / 2 / 3 / 2;
+}
+#reset{
+    grid-area: 3 / 3 / 3 / 3;
+}
+#stop{
+    grid-area: 3 / 4 / 3 / 4;
+}
+/*focus css section ends here*/
