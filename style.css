@@ -56,15 +56,24 @@ footer{
 /*clock css section ends here*/
 
 /*focus css section starts here*/
+
+div#container {
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
 #container{
 height: 300px;
-width: 700px;
+width: 650px;
 background-color: rgba(255, 255, 255, .25);
 margin: 0 auto;
 display: grid;
 grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(3, 1fr);
-border: 1px solid yellow;
+/*border: 1px solid yellow;*/
+color: white;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 
 
@@ -91,6 +100,7 @@ border: 1px solid yellow;
     justify-self: center;
     font-size: 30px;
     font-weight: bold;
+    letter-spacing: 3px;
 }
 
 p{
@@ -114,8 +124,16 @@ p{
     width: 100px;
     height: 30px;
     font-size: 20px;
+    background: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
 }
-
+.btn:focus{
+    background-color:rgba(0, 0, 0, 0.18);
+    font-weight: bold;
+}
 #start{
     grid-area: 3 / 2 / 3 / 2;
 }
@@ -125,4 +143,6 @@ p{
 #stop{
     grid-area: 3 / 4 / 3 / 4;
 }
+
+
 /*focus css section ends here*/
