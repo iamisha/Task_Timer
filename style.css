@@ -7,7 +7,7 @@ html{
 
 .clockstyle{
     text-align: center;
-    margin: 160px 550px;
+    margin: 240px 710px;
     font-size: 40px;
     color: white;
     background-color: rgba(255, 255, 255, .25);  ;
@@ -19,9 +19,7 @@ html{
 }
 h2{
     text-align: center;
-    color: white;
-    background-color:rgba(0, 0, 0, 0.18)
-    
+    color: white; 
    
 }
 .text{
@@ -34,9 +32,13 @@ a:hover{
     color: brown;
 }
 .nav{
+    
     float: right;
     position: sticky;
     margin: -100px 100px;
+    background:  rgba(0, 0, 0, 0.18);
+    display: flex;
+    ;
 }
 
 
